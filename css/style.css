@@ -649,6 +649,7 @@ text-transform: uppercase;
 .hover_block{
   position: relative;
   width: 100%;
+  height: inherit;
   background: var(--grad-1, linear-gradient(0deg, rgba(237, 215, 137, 0.90)
    0%, rgba(233, 130, 131, 0.90) 100%));
    opacity: 0;
@@ -802,7 +803,6 @@ font-weight: 400;
 
 /*-----section reviews__two-----*/
 .reviews__two{
-  padding: 70px 50px;
   position: relative;
 }
 .reviews__photo{
