@@ -1,5 +1,671 @@
+
+
+
+
+@media(max-width: 1200px){
+  .wrapper{
+    width: 100%;
+  }
+  .about,
+  .services,
+  .work,
+  .ourteam,
+  .design,
+  .ourwork,
+  .what,
+  .blog{
+    padding: 50px 0 70px;
+  }
+/*<--------------------Header,Welcome--------------------->*/
+  .nav__link{
+    font-size: 14px;
+    width: 100px;
+  }
+  .welcome__text{
+    font-size: 56px;
+  }
+  h1{
+    font-size: 110px;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+  .welcome__descr{
+    width: 140px;
+  }
+  .button{
+    width: 340px;
+    height: 65px;
+    margin-bottom: 90px;
+    font-size: 18px;
+  }
+  .linecolor::before{
+    content:"";
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #F38281;
+  }
+  .line{
+  width: 230px;
+  }
+  .linecolor::before{
+    width: 64px;
+  }
+  .block_text{
+   font-size: 16px;
+    padding: 30px 0 25px 0;
+  }
+  .welcome__block{
+    column-gap: 23px;
+  }
+  /*<--------------------About--------------------->*/
+  .wrapper__title{
+    font-size: 26px;
+    margin-bottom: 47px;
+  }
+  .wrapper__descr{
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .wrapper__devider{
+    width: 160px;
+    margin-bottom: 40px;
+  }
+  .about__text{
+    margin-bottom: 85px;
+  }
+  .pic_item{
+    height: 340px;
+  }
+  .hover_icon{
+    width: 33px;
+    height: 33px;
+    margin-bottom: 20px;
+  }
+  .hover_text{
+    font-size: 20px;
+  }
+
+   /*<--------------------figres--------------------->*/
+   .futures__item{
+    padding: 55px 15px;
+   }
+   .number{
+    font-size: 55px;
+  }
+  .lorem{
+    font-size: 21px;
+  }
+
+   /*<--------------------services--------------------->*/
+   .services__block{
+    column-gap: 20px;
+    row-gap: 140px;
+   }
+   .services_title{
+    font-size: 20px;
+   }
+   .services_text{
+    font-size: 16px;
+   }
+
+   /*<--------------------design--------------------->*/
+   .section__design{
+    padding: 50px 0 20px;
+   }
+   .tablet,
+   .mobile{
+    background-size: contain;
+   }
+   .tablet{
+    height: 410px;
+    width: 600px;
+    left: 258px;
+   }
+   .mobile{
+    width: 155px;
+    height: 300px;
+    left: 414px;
+    top: 189px;
+   }
+/*<--------------------work--------------------->*/
+  .work__pic{
+    height: 450px;
+  }
+   .work__block{
+   column-gap: 20px;
+  }
+    details{
+    height: 78px;
+  }
+    summary{
+    font-size: 20px;
+  }
+  .accordion__icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px 40px 10px 20px;
+  }
+    .summary_text{
+    font-size: 14px;
+  } 
+    details[open]{
+    margin-bottom: 110px;
+}
+   .cursor{
+    transform: translateX(476px) rotate(135deg);
+   }
+
+   /*<--------------------reviews--------------------->*/
+   .reviews{
+    padding: 25px 0 10px;
+    height: 190px;
+   }
+   .reviews__block{
+    row-gap: 18px;
+   }
+   .reviews__text{
+    font-size: 20px;
+    width: 650px;
+   }
+   .reviews__name{
+    font-size: 25px;
+   }
+   .reviews__name::before{
+    width: 60px;
+    right: 35px;
+   }
+   .reviews__icon{
+    width: 135px;
+    height: 135px;
+   }
+   .arrow_right{
+    left: 1007px;
+    bottom: 180px;
+}
+ /*<--------------------ourteam--------------------->*/
+ .photo{
+  height: 390px;
+ }
+ .hover_block{
+  height: inherit;
+ }
+.people__name{
+  font-size: 20px;
+}
+.prof{
+  font-size: 16px;
+}
+.people__name,
+.prof{
+  padding: 15px;
+}
+.people{
+  gap: 20px;
+}
+.icon svg{
+  width: 35px;
+  height: 35px;
+}
+
+ /*<--------------------figures--------------------->*/
+ .figures__block{
+  height: 175px;
+ }
+ .figures__block{
+  gap: 100px;
+ }
+}
+  
+
+
+
+
+@media(max-width:1124px){
+  .cursor{
+    transform: translateX(454px) rotate(135deg);
+   }
+}
+
+
+
+
+
+@media(max-width: 1024px){
+  .about,
+  .services,
+  .work,
+  .design,
+  .ourteam,
+  .ourwork,
+  .what,
+  .blog{
+    padding: 40px 0 60px;
+  }
+  /*<--------------------Header,Welcome--------------------->*/
+  .header{
+    margin-bottom: 92px;
+  }
+  .nav__link{
+    font-size: 13px;
+    width: 93px;
+  }
+  .basket, .loupe{
+    padding: 0 15px; 
+  }
+  .welcome__text{
+    font-size: 48px;
+  }
+  h1{
+    max-width: 793px;
+    font-size: 96px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .button{
+    width: 318px;
+    height: 54px;
+    margin-bottom: 79px;
+    font-size: 18px;
+  }
+  .line{
+  width: 215px;
+  }
+  .linecolor::before{
+  width: 60px;
+  }
+  .block_text{
+    font-size: 14px;
+     padding: 25px 0 20px 0;
+   }
+   .welcome__block{
+    column-gap: 18px;
+  }
+  /*<--------------------About--------------------->*/
+  .wrapper__title{
+   font-size: 24px;
+  }
+  .wrapper__descr{
+    font-size: 24px;
+  }
+  .wrapper__devider{
+    width: 148px;
+    margin-bottom: 34px;
+  }
+  .pic_item{
+    height: 320px;
+  }
+  .about__pic{
+    gap: 20px;
+  }
+  .hover_text{
+    font-size: 18px;
+  }
+
+  /*<--------------------futures--------------------->*/
+  .futures__item{
+    padding: 45px 10px;
+   }
+  .number{
+    font-size: 48px;
+  }
+  .lorem{
+    font-size: 18px;
+  }
+
+  /*<--------------------services--------------------->*/
+  .services__block{
+    column-gap: 15px;
+    row-gap: 100px;
+   }
+  .services_title{
+    font-size: 18px;
+    margin-bottom: 15px;
+   }
+   .services_text{
+    font-size: 16px;
+   }
+   .services_icon{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+   }
+/*<--------------------design--------------------->*/
+.tablet{
+  height: 350px;
+  width: 480px;
+  left: 258px;
+ }
+ .mobile{
+  width: 135px;
+  height: 268px;
+  left: 354px;
+  top: 155px;
+ }
+
+ /*<--------------------work--------------------->*/
+ .work__pic{
+  height: 410px;
+}
+details{
+  margin-bottom: 5px;
+}
+.cursor{
+  width: 20px;
+  height: 20px;
+}
+summary{
+  font-size: 18px;
+}
+.cursor{
+  transform: translateX(411px) rotate(135deg);
+ }
+
+
+ /*<--------------------reviews--------------------->*/
+ .reviews{
+  padding: 25px 0 10px;
+  height: 175px;
+ }
+ .reviews__text{
+  font-size: 18px;
+ }
+ .reviews__name{
+  font-size: 25px ;
+ }
+ .reviews__name::before{
+ width: 48px;
+}
+  .reviews__icon{
+  width: 115px;
+  height: 115px;
+  }
+  .arrow_right{
+    bottom: 151px;
+  }
+  .arrow_left {
+    bottom: 114px;
+}
+
+ /*<------------------ourteam--------------------->*/
+ .photo{
+  height: 390px;
+}
+.people__name{
+  font-size: 18px;
+}
+.prof{
+  font-size: 14px;
+}
+.people__name,
+.prof{
+  padding: 10px;
+}
+.hover__icon{
+  width: 155px;
+  height: 35px;
+}
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 956px){
+  /*<--------------------Header,Welcome--------------------->*/
+  .header{
+    margin-bottom: 72px;
+  }
+  .nav__link{
+    width: 85px;
+  }
+  .line{
+    width: 170px;
+  }
+  .block_text{
+    font-size: 14px;
+    padding: 18px 0 14px 0;
+  }
+  /*<--------------------About--------------------->*/
+  .pic_item{
+    height: 320px;
+  }
+  .about__pic{
+    gap: 15px;
+  }
+
+  .tablet{
+    width: 466px;
+    left: 224px;
+   }
+   .mobile{
+    width: 135px;
+    height: 279px;
+    left: 358px;
+    top: 147px;
+   }
+
+/*<--------------------services--------------------->*/
+.services__block{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.services__item{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.services_icon{
+  margin-left: 95px;
+}
+
+/*<--------------------design--------------------->*/
+  .tablet{
+    width: 460px;
+    left: 232px;
+   }
+
+
+/*<--------------------work--------------------->*/
+   .cursor{
+    transform: translateX(376px) rotate(135deg);
+   }
+
+   /*<--------------------reviews--------------------->*/
+   .arrow_right{
+    left: 888px;
+    bottom: 163px;
+}
+
+   .arrow_left{
+    right: 12px;
+    bottom: 120px;
+}
+
+.people__name,
+.prof{
+  padding: 5px;
+}
+/*<--------------------figures--------------------->*/
+.figures__block{
+  height: 143px;
+  gap: 80px;
+ }
+ 
+}
+
+
+
+
+
+
+@media(max-width:860px){
+  .tablet{
+    left: 170px;
+  }
+  .work__pic{
+    height: 360px;
+  }
+
+   /*<--------------------work--------------------->*/
+  .cursor{
+    transform: translateX(336px) rotate(135deg);
+   }
+  .pic_item{
+    max-width: 350px;
+  }
+  
+}
+
+
+
+
+
+
 @media(max-width: 768px){
+  /*<--------------------Header,Welcome--------------------->*/
+  .nav{
+    display: none;
+  }
+  .welcome__logo{
+    position: relative;
+    z-index: 10;
+  }
   .burger-wrapper{
     display: block;
+    right: 7px;
+    bottom: 10px;
+  }
+/*<--------------------About--------------------->*/
+ 
+  .tablet{
+    left: 179px;
+   }
+
+
+
+ /*<--------------------work--------------------->*/
+  .cursor{
+    transform: translateX(311px) rotate(135deg);
+   }
+   details{
+    height: 65px;
+  }
+
+  .welcome__block{
+    column-gap: 16px;
+  }
+  .line{
+    width: 130px;
+    }
+    .linecolor::before{
+      width: 50px;
+    }
+    .about__pic{
+      grid-template-columns: repeat(1, 1fr);
+      width: 50%;
+      margin: 0 auto;
+  }
+  .hover_item{
+    left: 0;
+    height: 83px;
+    top: 238px;
+  }
 }
+
+
+
+
+
+/*MOBILE*/
+@media(max-width: 586px){
+  
+  .welcome__text{
+    font-size: 46px;
+  }
+  h1{
+    font-size: 55px;
+    max-width: 320px;
+    margin-bottom: 75px;
+  }
+  .welcome__descr{
+    width: 134px;
+  }
+  .button{
+    width: 285px;
+    height: 54px;
+    margin-bottom: 40px;
+  }
+  .linecolor::before{
+    width: 70px;
+  }
+  .line{
+  width: 100px;
+  }
+  .linecolor::before{
+    width: 100px;
+  }
+  .block_text{
+  display: none;
+  }
+  .welcome__block{
+    column-gap: 13px;
+    margin-bottom: 42px;
+
+  }
+    /*<--------------------About--------------------->*/
+    .about__text{
+      font-size: 14px;
+      margin-bottom: 45px;
+}
+   .wrapper__devider{
+      width: 148px;
+      margin-bottom: 22px;
+    }
+
+    .wrapper__title{
+      font-size: 26px;
+      margin-bottom: 47px;
+    }
+    .wrapper__descr{
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+}
+
+
+@media(max-width: 480px){
+  .line{
+    width: 80px;
+  }
+}
+
+
+@media(max-width: 320px){
+  .welcome__text{
+    font-size: 36px;
+  }
+  h1{
+    font-size: 48px;
+    max-width: 320px;
+  }
+  .line{
+    width: 57px;
+    }
+  .linecolor::before{
+      width: 57px;
+    }
+    .about__text{
+      margin-bottom: 35px;
+    }
+    
 }
