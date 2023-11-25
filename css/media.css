@@ -16,6 +16,18 @@
   .blog{
     padding: 50px 0 70px;
   }
+  .wrapper__title{
+  font-size: 24px;
+  }
+  .wrapper__descr{
+   font-size: 30px;
+  }
+  .wrapper__devider{
+   width: 150px;
+  }
+  .about__text{
+   font-size: 16px;
+  }
 /*<--------------------Header,Welcome--------------------->*/
   .nav__link{
     font-size: 14px;
@@ -62,37 +74,9 @@
     column-gap: 23px;
   }
   /*<--------------------About--------------------->*/
-  .wrapper__title{
-    font-size: 26px;
-    margin-bottom: 47px;
-  }
-  .wrapper__descr{
-    font-size: 28px;
-    margin-bottom: 40px;
-  }
-  .wrapper__devider{
-    width: 160px;
-    margin-bottom: 40px;
-  }
-  .about__text{
-    margin-bottom: 85px;
-  }
-  .pic_item{
-    height: 340px;
-  }
-  .hover_icon{
-    width: 33px;
-    height: 33px;
-    margin-bottom: 20px;
-  }
-  .hover_text{
-    font-size: 20px;
-  }
-
-   /*<--------------------figres--------------------->*/
-   .futures__item{
-    padding: 55px 15px;
-   }
+ 
+   /*<--------------------futures--------------------->*/
+   
    .number{
     font-size: 55px;
   }
@@ -103,7 +87,7 @@
    /*<--------------------services--------------------->*/
    .services__block{
     column-gap: 20px;
-    row-gap: 140px;
+    row-gap: 72px;
    }
    .services_title{
     font-size: 20px;
@@ -116,21 +100,7 @@
    .section__design{
     padding: 50px 0 20px;
    }
-   .tablet,
-   .mobile{
-    background-size: contain;
-   }
-   .tablet{
-    height: 410px;
-    width: 600px;
-    left: 258px;
-   }
-   .mobile{
-    width: 155px;
-    height: 300px;
-    left: 414px;
-    top: 189px;
-   }
+  
 /*<--------------------work--------------------->*/
   .work__pic{
     height: 450px;
@@ -152,12 +122,8 @@
     .summary_text{
     font-size: 14px;
   } 
-    details[open]{
-    margin-bottom: 110px;
-}
-   .cursor{
-    transform: translateX(476px) rotate(135deg);
-   }
+
+  
 
    /*<--------------------reviews--------------------->*/
    .reviews{
@@ -169,23 +135,18 @@
    }
    .reviews__text{
     font-size: 20px;
-    width: 650px;
    }
    .reviews__name{
     font-size: 25px;
    }
    .reviews__name::before{
     width: 60px;
-    right: 35px;
    }
    .reviews__icon{
     width: 135px;
     height: 135px;
    }
-   .arrow_right{
-    left: 1007px;
-    bottom: 180px;
-}
+
  /*<--------------------ourteam--------------------->*/
  .photo{
   height: 390px;
@@ -213,22 +174,78 @@
 
  /*<--------------------figures--------------------->*/
  .figures__block{
-  height: 175px;
+  gap: 90px;
  }
- .figures__block{
-  gap: 100px;
+
+
+/*-------------------what------------------*/
+.what__title{
+  font-size: 20px;
+}
+.what__prof,
+.what__text{
+  font-size: 16px;
+}
+.what__descr{
+  width: 57px;
+}
+.what__icon{
+  width: 100px;
+  height: 100px;
+}
+
+
+ /*-------------------block------------------*/
+ .blog__title{
+  font-size: 20px;
  }
+ .blog__text,
+ .month{
+  font-size: 16px;
+ }
+.date{
+  font-size: 30px;
 }
-  
-
-
-
-
-@media(max-width:1124px){
-  .cursor{
-    transform: translateX(454px) rotate(135deg);
-   }
+ /*<--------------------map--------------------->*/
+ .map__title{
+  font-size: 30px;
+  margin-bottom: 40px;
+ }
+ .map__descr{
+  width: 160px;
+ }
+  /*<--------------------footer--------------------->*/
+  .MoGo__text{
+    font-size: 16px;
+  }
+  .followers__numb,
+  .foll{
+    font-size: 30px;
+  }
+  .MoGo__followers,
+  .foll{
+    font-size: 16px;
+  }
+  .MoGo__icons{
+    gap: 5px;
+  }
+  .inputform,
+  .button__input{
+    font-size: 16px;
+  }
+  .blogs__title,
+.instagram__title{
+  font-size: 20px;
 }
+.logs__text1{
+  font-size: 16px;
+}
+}
+
+
+
+
+
 
 
 
@@ -285,30 +302,10 @@
     column-gap: 18px;
   }
   /*<--------------------About--------------------->*/
-  .wrapper__title{
-   font-size: 24px;
-  }
-  .wrapper__descr{
-    font-size: 24px;
-  }
-  .wrapper__devider{
-    width: 148px;
-    margin-bottom: 34px;
-  }
-  .pic_item{
-    height: 320px;
-  }
-  .about__pic{
-    gap: 20px;
-  }
-  .hover_text{
-    font-size: 18px;
-  }
+  
 
   /*<--------------------futures--------------------->*/
-  .futures__item{
-    padding: 45px 10px;
-   }
+  
   .number{
     font-size: 48px;
   }
@@ -317,10 +314,6 @@
   }
 
   /*<--------------------services--------------------->*/
-  .services__block{
-    column-gap: 15px;
-    row-gap: 100px;
-   }
   .services_title{
     font-size: 18px;
     margin-bottom: 15px;
@@ -334,17 +327,6 @@
     background-position: center;
    }
 /*<--------------------design--------------------->*/
-.tablet{
-  height: 350px;
-  width: 480px;
-  left: 258px;
- }
- .mobile{
-  width: 135px;
-  height: 268px;
-  left: 354px;
-  top: 155px;
- }
 
  /*<--------------------work--------------------->*/
  .work__pic{
@@ -360,15 +342,15 @@ details{
 summary{
   font-size: 18px;
 }
-.cursor{
-  transform: translateX(411px) rotate(135deg);
- }
+
 
 
  /*<--------------------reviews--------------------->*/
  .reviews{
   padding: 25px 0 10px;
-  height: 175px;
+ }
+ .reviews__block{
+  row-gap: 10px;
  }
  .reviews__text{
   font-size: 18px;
@@ -380,37 +362,145 @@ summary{
  width: 48px;
 }
   .reviews__icon{
-  width: 115px;
-  height: 115px;
+  width: 110px;
+  height: 110px;
   }
-  .arrow_right{
-    bottom: 151px;
+  .reviews__photo {
+    width: 130px;
+    height: 130px;
+    background-size: contain;
   }
-  .arrow_left {
-    bottom: 114px;
-}
-
  /*<------------------ourteam--------------------->*/
- .photo{
-  height: 390px;
-}
-.people__name{
+ .people__name{
   font-size: 18px;
 }
-.prof{
+.photo{
+  height: 340px;
+ }
+ .prof{
   font-size: 14px;
 }
-.people__name,
-.prof{
-  padding: 10px;
-}
-.hover__icon{
-  width: 155px;
-  height: 35px;
-}
 
-
+ /*<--------------------figures--------------------->*/
+ .figures__block{
+  gap: 80px;
+ }
+ /*-------------------ourwork------------------*/
+ .ourwork-title{
+  font-size: 20px;
+ }
+ .ourwork-text{
+  font-size: 16px;
+ }
+ .ourwork-icon{
+  margin-bottom: 45px;
+ }
  
+ /*-------------------what------------------*/
+ .what__title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.what__prof,
+.what__text{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.what__descr{
+  width: 47px;
+  margin-bottom: 30px;
+}
+.what__icon{
+  width: 88px;
+  height: 88px;
+}
+.what__say{
+  row-gap: 30px;
+  column-gap: 10px;
+}
+
+ /*-------------------block------------------*/
+ .blog__title{
+  font-size: 18px;
+  margin-bottom: 10px;
+ }
+ .blog__text,
+ .month{
+  font-size: 14px;
+ }
+ .form{
+  width: 67px;
+  height: 67px;
+ }
+ .date{
+  font-size: 24px;
+}
+.blog__text,
+.blog__photo{
+  margin-bottom: 20px;
+}
+.number-icon{
+  font-size: 16px;
+}
+ /*<--------------------map--------------------->*/
+ .map__title{
+  font-size: 24px;
+  margin-bottom: 30px;
+ }
+ .map__descr{
+  width: 148px;
+ }
+ .map__icon{
+  margin-bottom: 15px;
+ }
+
+   /*<--------------------footer--------------------->*/
+   .MoGo__text{
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .MoGo__logo{
+    width: 110px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  .followers__numb{
+    font-size: 24px;
+  }
+  .MoGo__followers,
+  .foll{
+    font-size: 14px;
+  }
+  .MoGo__sub_text{
+    font-size: 12px;
+  }
+  .MoGo__icons svg{
+     width: 20px;
+     height: 20px;
+  }
+  .inputform,
+  .button__input{
+    font-size: 16px;
+  }
+  .blogs__block{
+    row-gap: 15px;
+  }
+  .blogs__title,
+  .instagram__title{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .logs__text2{
+    font-size: 12px;
+  }
+  .logs__text1{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .instagram__block{
+    margin-bottom: 40px;
+  }
+  
 }
 
 
@@ -422,6 +512,20 @@ summary{
 
 
 @media(max-width: 956px){
+  .wrapper__title{
+    margin-bottom: 45px;
+  }
+  .wrapper__descr{
+    font-size: 30px;
+    margin-bottom: 40px;
+   }
+   .wrapper__devider{
+    margin-bottom: 35px;
+   }
+   .about__text{
+    font-size: 14px;
+    margin-bottom: 70px ;
+   }
   /*<--------------------Header,Welcome--------------------->*/
   .header{
     margin-bottom: 72px;
@@ -436,25 +540,15 @@ summary{
     font-size: 14px;
     padding: 18px 0 14px 0;
   }
-  /*<--------------------About--------------------->*/
-  .pic_item{
-    height: 320px;
-  }
+/*<--------------------About--------------------->*/
   .about__pic{
-    gap: 15px;
+    gap: 10px;
   }
 
-  .tablet{
-    width: 466px;
-    left: 224px;
-   }
-   .mobile{
-    width: 135px;
-    height: 279px;
-    left: 358px;
-    top: 147px;
-   }
+  /*<--------------------futures--------------------->*/
+ 
 
+ 
 /*<--------------------services--------------------->*/
 .services__block{
   grid-template-columns: repeat(2, 1fr);
@@ -465,42 +559,84 @@ summary{
   grid-template-rows: repeat(2, 1fr);
 }
 .services_icon{
-  margin-left: 95px;
+  margin: 0 auto;
 }
 
 /*<--------------------design--------------------->*/
-  .tablet{
-    width: 460px;
-    left: 232px;
-   }
+ 
 
 
 /*<--------------------work--------------------->*/
-   .cursor{
-    transform: translateX(376px) rotate(135deg);
-   }
-
-   /*<--------------------reviews--------------------->*/
-   .arrow_right{
-    left: 888px;
-    bottom: 163px;
-}
-
-   .arrow_left{
-    right: 12px;
-    bottom: 120px;
-}
-
-.people__name,
-.prof{
-  padding: 5px;
-}
+ 
+/*<--------------------reviews--------------------->*/
+ .reviews__text{
+  font-size: 14px;
+ }
+ .reviews__name{
+  font-size: 18px;
+ }
+ .reviews__photo {
+  width: 110px;
+  height: 110px;
+ }
 /*<--------------------figures--------------------->*/
 .figures__block{
-  height: 143px;
-  gap: 80px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0;
+  row-gap: 20px;
+  padding: 20px 0;
+}
+.fig__item1,
+.fig__item2,
+.fig__item4,
+.fig__item5{
+ width: 100%;
+}
+.fig__item3,
+.fig__item6{
+  grid-column: 1/span2;
+  margin: 0 auto;
+}
+
+/*-------------------ourwork------------------*/
+.ourwork__pic{
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+ /*-------------------block------------------*/
+ .blog__icon1,
+ .blog__icon2{
+   width: 28px;
+   height: 28px; 
  }
- 
+ .number-icon{
+  font-size: 14px;
+  margin-right: 20px;
+}
+/*<--------------------footer--------------------->*/
+.footer__blog{
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+}
+.instagram{
+  grid-column: 1/span2;
+  width: 50%;
+  margin: 0 auto;
+}
+.instagram__title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.allphoto{
+  display: block;
+  margin: 0 auto;
+}
+.instagram__block{
+  margin-bottom: 25px;
+}
 }
 
 
@@ -508,34 +644,12 @@ summary{
 
 
 
-@media(max-width:860px){
-  .tablet{
-    left: 170px;
-  }
-  .work__pic{
-    height: 360px;
-  }
 
-   /*<--------------------work--------------------->*/
-  .cursor{
-    transform: translateX(336px) rotate(135deg);
-   }
-  .pic_item{
-    max-width: 350px;
-  }
-  
-}
-
-
-
-
-
-
-@media(max-width: 768px){
-  /*<--------------------Header,Welcome--------------------->*/
+@media(max-width:768px){
+/*<--------------------Header,Welcome--------------------->*/
   .nav{
     display: none;
-  }
+ }
   .welcome__logo{
     position: relative;
     z-index: 10;
@@ -546,17 +660,21 @@ summary{
     bottom: 10px;
   }
 /*<--------------------About--------------------->*/
- 
-  .tablet{
-    left: 179px;
-   }
+.about__pic{
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-
+ /*<--------------------services--------------------->*/
+.services__block{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6,1fr);
+}
+.allphoto{
+  font-size: 12px;
+}
 
  /*<--------------------work--------------------->*/
-  .cursor{
-    transform: translateX(311px) rotate(135deg);
-   }
    details{
     height: 65px;
   }
@@ -570,43 +688,198 @@ summary{
     .linecolor::before{
       width: 50px;
     }
-    .about__pic{
+
+
+    .services__block{
+      column-gap: 5px;
+      row-gap: 58px;
+    }
+/*<--------------------reviews--------------------->*/
+    .reviews__icon{
+      display: none;
+    }
+    .reviews__photo{
+      display: none;
+    }
+    .arrow{
+      display: none;
+    }
+    .reviews__block{
       grid-template-columns: repeat(1, 1fr);
-      width: 50%;
-      margin: 0 auto;
-  }
-  .hover_item{
-    left: 0;
-    height: 83px;
-    top: 238px;
-  }
+     grid-template-rows: repeat(3, 1fr);
+    }
+    .reviews__text{
+      grid-column: 1/span1;
+    }
+  .dots{
+    height: 10px;
+    width: 130px;
+    grid-row: 3;
+    margin: 0 auto;
+    display: block;
 }
 
+ /*<------------------ourteam--------------------->*/
+ .people{
+  grid-template-columns: repeat(1,1fr);
+ }
+ .photo{
+  width: 50%;
+  margin: 0 auto;
+  height: 280px;
+ }
+ .hover_block{
+  opacity: 0;
+ }
+ .hover__icon{
+  opacity: 100;
+ }
+
+
+  }
 
 
 
+
+
+
+
+
+
+
+@media(max-width:706px){
+      /*<--------------------futures--------------------->*/
+      .futures__block{
+        flex-wrap: wrap;
+      }
+      .futures__item{
+        padding: 40px 0;
+        width: 50%;
+       border: none;
+       border-bottom: 1px solid #fff;
+      }
+      .futures__item:last-child{
+        width: 100%;
+      }
+/*--------work-----------*/ 
+.work__block{
+  grid-template-columns: repeat(1,1fr);
+} 
+.work__pic {
+  height: 290px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+/*<--------------------reviews--------------------->*/
+.reviews__photo {
+  width: 110px;
+  height: 110px;
+}
+/*-------------------ourwork------------------*/
+.ourwork__pic{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.ourwork3{
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.ourwork5{
+grid-row-start: 2;
+}
+.ourwork7{
+  grid-row-start: 3;
+}
+.ourwork6{
+  grid-column: 1/span2;
+}
+.ourwork2{
+  grid-row-start: 4;
+  grid-column: 2;
+}
+.ourwork4{
+  grid-row-start: 4;
+}
+.ourwork-title{
+  font-size: 20px;
+ }
+ .ourwork-text{
+  font-size: 16px;
+ }
+ .ourwork-icon{
+  margin-bottom: 35px;
+  width: 35px;
+  height: 35px;
+ }
+ /*-------------------what------------------*/
+ .what__say,
+ .what__info{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+ }
+ .what__say{
+  row-gap: 0;
+ }
+ .what__icon{
+  grid-row: 1;
+ }
+ .what__block{
+  grid-row: 2;
+  grid-column: 1/span2;
+ }
+ .what__icon,
+ .what__block >*{
+  margin: 0 auto 10px;
+  text-align: center;
+ }
+  /*-------------------block------------------*/
+  .blog__block{
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+  .blog__photo{
+    width: 60%;
+    height: 210px;
+    margin: 0 auto 20px;
+  }
+  .inputform,
+  .button__input{
+    font-size: 14px;
+  }
+  
+
+ 
+
+}
 
 /*MOBILE*/
+
 @media(max-width: 586px){
-  
+  .wrapper__devider{
+    width: 150px;
+   }
+  .header{
+    margin-bottom: 38px;
+  }
   .welcome__text{
     font-size: 46px;
   }
   h1{
     font-size: 55px;
     max-width: 320px;
-    margin-bottom: 75px;
+    margin-bottom: 55px;
   }
   .welcome__descr{
     width: 134px;
+    margin-bottom: 53px;
   }
   .button{
     width: 285px;
     height: 54px;
     margin-bottom: 40px;
-  }
-  .linecolor::before{
-    width: 70px;
   }
   .line{
   width: 100px;
@@ -626,7 +899,7 @@ summary{
     .about__text{
       font-size: 14px;
       margin-bottom: 45px;
-}
+  }
    .wrapper__devider{
       width: 148px;
       margin-bottom: 22px;
@@ -640,12 +913,58 @@ summary{
       font-size: 28px;
       margin-bottom: 40px;
     }
+    .footer__blog{
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+    .MoGo{
+      grid-row: 1;
+    }
+    .blogs{
+      grid-row: 2;
+    }
+    .instagram{
+      grid-row: 3;
+    }
+    .MoGo__logo{
+      margin: 0 auto 25px;
+    }
+    .MoGo__text,
+    .MoGo__followers{
+      text-align: center;
+    }
+    .input{
+      flex-wrap: wrap;
+    }
+    .button__input{
+      width: 100%;
+    }
+    .inputform{
+      width: 100%;
+      margin-bottom: 20px;
+    }
 }
 
 
 @media(max-width: 480px){
   .line{
-    width: 80px;
+    width: 60px;
+  }
+  .linecolor::before{
+    width: 60px;
+  }
+  .welcome__block{
+   column-gap: 8px;
+  }
+
+  .reviews{
+    padding: 10px 0 0;
+   }
+   .wrapper__title{
+    font-size: 24px;
+  }
+  .wrapper__descr{
+    font-size: 24px;
   }
 }
 
@@ -663,9 +982,9 @@ summary{
     }
   .linecolor::before{
       width: 57px;
-    }
+  }
     .about__text{
       margin-bottom: 35px;
-    }
-    
+  }
+   
 }
