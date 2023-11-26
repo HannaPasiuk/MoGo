@@ -341,7 +341,7 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 10px 15px 10px 15px darkslategrey;
+  box-shadow: -10px 10px darkslategrey;
 }
 
 .hover_item:hover{
@@ -367,11 +367,11 @@ h1{
 /*-----section futures-----*/
 .futures{
   background-color: rgba(149, 225, 211, 1);
-  animation: bgColor 4s infinite linear;
+  animation: bgColor 3.5s infinite linear;
 }
 @keyframes bgColor{
-  0%{ background-color: rgb(122, 217, 199);}
-  40%{background-color: rgb(28, 186, 157);}
+0%{ background-color: rgb(122, 217, 199);}
+40%{background-color: rgb(28, 186, 157);}
 80%{ background-color: rgb(28, 186, 157);}
 100%{ background-color: rgb(127, 217, 199);}
 }
@@ -1256,7 +1256,7 @@ margin-bottom: 20px;
 }
 .instagram__photo:hover{
   transform:scale(1.1);
-  box-shadow: -3px -3px 3px 3px #2cc2a6;
+  box-shadow: -3px -3px 3px 3px #94cdc2;
 }
 .allphoto{
   color: #2D3033;
