@@ -133,6 +133,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: 2;
 }
+.nav-toggle{
+  padding-top: 80px;
+}
 .checkbox{
   position: absolute;
   width: 0;
