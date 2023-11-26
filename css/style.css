@@ -95,11 +95,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
+  border: 1px solid transparent;
 }
 .nav__link:hover{
   color: rgba(244, 191, 135, 1);
   border-bottom: 1px solid rgba(244, 191, 135, 1);
 }
+
+
 .basket, .loupe{
   padding: 0 20px; 
 }
@@ -107,12 +110,11 @@ h1, h2, h3, h4, h5, h6 {
 .loupe_hover:hover{
   fill: rgba(244, 191, 135, 1);
 }
-.basket_hover:hover,
-.loupe_hover:hover,
-.nav__link:hover,
+.basket,
+.loupe_hover,
 .nav__link,
 .button{
-  transition: 1s ease-out;
+  transition: 0.6s linear;
 }
 
 
@@ -334,7 +336,7 @@ h1{
   opacity: 0;
   bottom: 5px;
   left: 5px;
-  transition: 0.6s ease-in-out;
+  transition: 0.5s ease-in;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -350,6 +352,7 @@ h1{
   height: 40px;
   background-image: url(../img/hovericons.svg);
   background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 30px;
 }
 
@@ -364,6 +367,13 @@ h1{
 /*-----section futures-----*/
 .futures{
   background-color: rgba(149, 225, 211, 1);
+  animation: bgColor 4s infinite linear;
+}
+@keyframes bgColor{
+  0%{ background-color: rgb(122, 217, 199);}
+  40%{background-color: rgb(28, 186, 157);}
+80%{ background-color: rgb(28, 186, 157);}
+100%{ background-color: rgb(127, 217, 199);}
 }
 .futures__block{
   display: flex;
@@ -448,12 +458,29 @@ h1{
 .design__item{
   position: relative;
   width: 100%;
+  animation: tablet 3s infinite;
+}
+
+@keyframes tablet {
+0%{
+  transform: scale(1);
+}
+50%{
+  transform: scale(0.95);
+}
+
+100%{
+  transform: scale(1);
+}
 }
 .tablet{
   max-width: 100%;
   height: auto;
   width: 70%;
+  
 }
+
+
 .mobile{
   display: block;
   position: absolute;
@@ -644,6 +671,7 @@ details[open] .cursor{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 .photo__one{
   background-image: url(../img/photo1.png);
@@ -681,11 +709,19 @@ text-transform: uppercase;
   justify-content: center;
   align-items: center;
 }
-.hover__icon{
+.hover__icon,
+.hover_icon_two{
   display: flex;
   gap: 2px;
   width: 171px;
   height: 42px;
+}
+.hover_icon_two{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+  width: 100%;
 }
 .people__item:hover .hover_block{
   opacity: 100;
@@ -719,18 +755,17 @@ text-transform: uppercase;
   background-position: center;
 }
 .figures__item:hover{
-  animation-name: figures;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  
+  animation: figures 1.8s infinite;
 }
 @keyframes figures{
   0%{
-  transform: rotate(0deg);
+  transform: rotate(0deg) scale(1);
+  }
+  50%{
+    transform: rotate(360deg) scale(1.5);
   }
   100%{
-  transform: rotate(360deg);
+  transform: rotate(0deg) scale(1);
   }
 }
 .fig__item1{
@@ -1185,11 +1220,12 @@ margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 2px;
+  gap: 5px;
   margin-bottom: 50px;
 }
 .instagram__photo{
   height: 88px;
+  transition: 0.5s ease;
 }
 .instagram__photo1{
   background-image: url(../img/inst1.png);
@@ -1218,13 +1254,23 @@ margin-bottom: 20px;
 .instagram__photo9{
   background-image: url(../img/insat9.png);
 }
+.instagram__photo:hover{
+  transform:scale(1.1);
+  box-shadow: -3px -3px 3px 3px #2cc2a6;
+}
 .allphoto{
   color: #2D3033;
   font-size: 13px;
   text-decoration-line: underline;
   text-transform: uppercase;
   display: flex;
+  transition: 0.5s ease-in;
 }
+.allphoto__hover:hover{
+  color:  #95E1D3;
+  text-decoration: none;
+}
+
 .sub__footer{
   color: #2D3033;
   text-align: center;

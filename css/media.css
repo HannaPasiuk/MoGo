@@ -100,7 +100,12 @@
    .section__design{
     padding: 50px 0 20px;
    }
-  
+   .design__item{
+    animation: none;
+   }
+   .futures{
+    animation: none;
+   }
 /*<--------------------work--------------------->*/
   .work__pic{
     height: 450px;
@@ -664,6 +669,22 @@ summary{
   flex-wrap: wrap;
   justify-content: center;
 }
+.hover_item{
+  bottom: 0;
+  left: 0;
+  box-shadow: none;
+  height: 30%;
+  top: 70%;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.hover_text{
+  font-size: 18px;
+}
+.hover_icon{
+  margin: 0;
+}
+
 
  /*<--------------------services--------------------->*/
 .services__block{
@@ -734,7 +755,17 @@ summary{
  .hover__icon{
   opacity: 100;
  }
+ .hover_block{
+  display: none;
+ }
+ .hover_icon_two{
+  display: block;
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
 
+ }
 
   }
 
@@ -916,6 +947,7 @@ grid-row-start: 2;
     .footer__blog{
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(3, 1fr);
+      column-gap: 0;
     }
     .MoGo{
       grid-row: 1;
@@ -924,7 +956,7 @@ grid-row-start: 2;
       grid-row: 2;
     }
     .instagram{
-      grid-row: 3;
+      width: 100%;
     }
     .MoGo__logo{
       margin: 0 auto 25px;
@@ -943,6 +975,13 @@ grid-row-start: 2;
       width: 100%;
       margin-bottom: 20px;
     }
+    .photo{
+       height: 200px;
+       background-position: top;
+    }
+   
+    
+   
 }
 
 
@@ -965,6 +1004,10 @@ grid-row-start: 2;
   }
   .wrapper__descr{
     font-size: 24px;
+  }
+  .hover_icon_two svg{
+    width: 30px;
+    height: 30px;
   }
 }
 
