@@ -110,11 +110,11 @@ h1, h2, h3, h4, h5, h6 {
 .loupe_hover:hover{
   fill: rgba(244, 191, 135, 1);
 }
-.basket,
+.basket_hover:hover,
 .loupe_hover,
 .nav__link,
 .button{
-  transition: 0.6s linear;
+  transition: 0.3s linear;
 }
 
 
